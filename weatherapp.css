@@ -1,0 +1,113 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box0;
+}
+body{
+  /* background: #e60606; */
+  display: grid;
+  justify-items: center;
+  align-items: center;
+background-image: url("https://cdn.vectorstock.com/i/1000x1000/07/81/seamless-weather-forecast-background-vector-2000781.webp");
+}
+button{
+width: 2.5vw;
+height:5vh;
+border: 2px solid #62773e;
+border-radius: 999px;
+
+
+
+
+}
+button>i{
+  font-size: 20px;
+}
+
+button:hover{
+transform:scale(1.2);
+
+}
+.search{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+}
+.search input{
+border: 0;
+outline: 0;
+background: #f3f5f3;
+color: #050101;
+padding: 10px 25px;
+height: 60px;
+ border-radius: 30px;
+flex: 1;
+font-size: 16px;
+/* margin-right: 18px; */
+}
+
+
+.card{
+max-width: 30vw;
+background: linear-gradient(135deg,#d3d548,#5b548a);
+color: #031920;
+border-radius: 20px;
+text-align: center;
+align-items: center;
+padding: 1em 0;
+}
+
+.weather{
+
+/* background-color: brown; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+}
+
+#mainSec{
+  /* background-color: blueviolet; */
+text-align: center;
+
+
+}
+#mainSec>img{
+max-width: 20vw;
+
+
+
+
+
+
+}
+#secPart{
+  /* background-color: burlywood; */
+width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+}
+
+#secPart>div{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column-reverse;
+}
+.para{
+margin-top: 8px;
+  font-size: 1rem;
+}
+h2{
+
+font-size: 20px;
+margin-bottom: 10px;
+}
